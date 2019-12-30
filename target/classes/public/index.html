@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>anonchat.</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+		<link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css">
+	</head>
+	<body>	
+        <div class="container">
+            <div class="wrap">
+                <div class="logo">
+                    <p class="text-center">anonchat.</p>
+                </div>
+                <div class="explication">
+                    <p><u><b>Rules:</b></u></p>
+                    <p><b>1.</b> This online chat doesn't persist anything (not even logs)</p>
+                    <p><b>2.</b> You'll be able to chat only with roommates</p>
+                    <p><b>3.</b> You can't see messagges sent before you entered the room (because no persistence)</p>
+                    <p><b>4.</b> There no are predefinited rooms, you can create/use any you want just by giving it a name.</p>
+                    <p><b>5.</b> GL HF!</p>
+                </div>
+                <div class="form-group">
+                    <label for="chatroom"><b>Chatroom</b></label>
+                    <input type="text" class="form-control" id="chatroom" name="chatroom" aria-describedby="usernameSmall" placeholder="Ex: games">
+                    <small id="usernameSmall" class="form-text text-muted">You'll be only connected and see messages of people in same room</small>
+                </div>
+                <div class="row justify-content-center">
+                    <button id="login" type="button" class="btn btn-primary text-center">Start chatting</button>
+                </div>
+                <div class="links px-2 text-center">
+                    <p><a href="https://www.github.com/CDNievas/anonchat" target="_black">Source Code</a></p>
+                    <p><a href="https://www.github.com/CDNievas/" target="_black">Creator</a></p>
+                </div>
+            </div>
+        </div>
+        <script th:src="@{/js/login.js}"></script>
+	</body>
+</html>

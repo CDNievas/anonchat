@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+    font-family: 'Courier Prime', monospace;
+    font-size:1em
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+@media (min-width: 1200px) {
+    .container{max-width: 900px;}
+}
+
+div.wrap{
+    margin:5em auto;
+}
+
+div.logo p{
+    font-size:4em;
+}
+
+div.title{
+    height:5%;
+    display:flex;
+    align-items:center;
+}
+
+button.btn-primary{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+}
+
+button.btn-primary:hover{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+    text-decoration: underline;
+}
+
+div.links{
+    padding:1em;
+}
+
+div.links p{
+    margin:0;
+}
+
+.customButton{
+    top : 0;
+    right : 0;
+    position: fixed;
+ }
+
+button.btn-primary a{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+}
+
+button.btn-primary:hover{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+    text-decoration: underline;
+}
+
+div.messages{
+    height:90vh;
+    display:block;
+    overflow-y: scroll;
+}
+
+div.message{
+    background: #eee;
+    padding: 0.8em;
+    margin: 0.8em 0.3em 0.8em 0;
+    border-left: 5px solid #aaa;
+    word-wrap: break-word;
+}
+
+div.message:first-of-type{
+    margin: 0 0.3em 0.8em 0;
+}
+
+div.message:last-of-type{
+    background: #c9edc3;
+    border-left-color: #74a377;
+    animation: enter .2s 1;
+}
+
+div.message p{
+    margin:0;
+}
+
+div.textbox{
+    height:5%;
+    overflow: hidden;
+}
+
+div.users{
+    background:#eee;
+    height:90vh;
+    display:block;
+    overflow-y: scroll;
+}
+
+div.users ul{
+    list-style:none;
+}
+
+div.logout{
+    height:5%;
+    overflow: hidden;
+}
+
+div.logout a{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+    width:100%;
+}
+
+div.logout a:hover{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+    width:100%;
+    text-decoration: underline;
+}
+
+div.logout a:active{
+    background:#fff;
+    color:#000;
+    border:0.1em solid #000;
+    width:100%;
+    text-decoration: underline;
+}
