@@ -76,7 +76,7 @@
 		          <version>2.0.13</version>        
          	    <configuration>
          		     <jdkVersion>11</jdkVersion>
-         		     <appName>anonychat</appName>
+         		     <appName>anonchat</appName>
          		     <processTypes>
          			      <web>java -jar ./target/anonchat-1.0-jar-with-dependencies.jar Server</web>
          		     </processTypes>
