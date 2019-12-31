@@ -6,7 +6,7 @@ import io.javalin.Javalin;
 
 public class Server {
 
-	public static int PORT = Integer.parseInt(System.getenv("PORT"),8000);
+	public static int PORT = Integer.parseInt(System.getenv("PORT"));
 	
 	public static void main(String[] args) {
 		
